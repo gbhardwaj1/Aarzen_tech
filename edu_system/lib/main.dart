@@ -1,5 +1,6 @@
  
 import 'package:edu_system/models/user.dart';
+import 'package:edu_system/screen/home/welcome.dart';
 import 'package:edu_system/screen/wrapper_home.dart';
 import 'package:edu_system/service/auth.dart';
 import 'package:flutter/material.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           title: 'Flutter Demo',
           theme: ThemeData(            
           ),
-          home: Wrapper(),
+          home: WelcomeApp(),// Wrapper(),
         ),
       );  
     }

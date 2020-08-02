@@ -2,8 +2,7 @@ import 'package:edu_system/screen/images_dart/images_banner.dart';
 import 'package:edu_system/service/auth.dart';
 import 'package:edu_system/util/loading_home.dart';
 import 'package:edu_system/util/view_helper.dart';
-import 'package:firebase_auth/firebase_auth.dart'; 
-import 'package:flutter/material.dart'; 
+import 'package:flutter/material.dart';
 import 'home/home_page_p2.dart';
 
 class SignIn extends StatefulWidget {
@@ -23,6 +22,8 @@ class _SignInState extends State<SignIn> {
   String email = '';
   String password = '';
   String error = '';
+  String errorMessage = '';
+  bool wrongPassword = false;
 
   @override
   Widget build(BuildContext context) {
@@ -59,7 +60,6 @@ class _SignInState extends State<SignIn> {
             ),
             body: SingleChildScrollView(
               child: Container(
-                
                 child: Form(
                   key: _formKey,
                   child: Column(
@@ -87,7 +87,6 @@ class _SignInState extends State<SignIn> {
                           ],
                         ),
                       ),
-                      
                       Container(
                         padding: EdgeInsets.only(top: 20, left: 20, right: 20),
                         child: Column(
@@ -140,38 +139,73 @@ class _SignInState extends State<SignIn> {
                               minWidth: 380.0,
                               height: 50.0,
                               child: RaisedButton(
-                                  shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(18.0),
-                                      side: BorderSide(
-                                          color: Colors.transparent)),
-                                  color: Colors.cyan[400],
-                                  child: Text(
-                                    'Login',
-                                    style: TextStyle(
-                                      fontFamily: 'Montserrat',
-                                      fontSize: 25.0,
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.white,
-                                    ),
+                                shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(18.0),
+                                    side:
+                                        BorderSide(color: Colors.transparent)),
+                                color: Colors.cyan[400],
+                                child: Text(
+                                  'Login',
+                                  style: TextStyle(
+                                    fontFamily: 'Montserrat',
+                                    fontSize: 25.0,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
                                   ),
-                                   onPressed: () async {
+                                ),
+                                onPressed: () async {
                                   if (_formKey.currentState.validate()) {
-                                      setState(() => loadingStatus = true);
+                                    setState(() => loadingStatus = true);
                                     Future result;
-                                    try{
-                                         result = _auth.signInWithEmailAndPassword( email, password);
-                                       //        result = _auth.signIn( email, password);
-                                    }catch(e){ 
+                                    try {
+                                      result = _auth
+                                          .signInWithEmailAndPassword(
+                                              email, password)
+                                          .then((value) {
+                                        print(
+                                            "^^^^^^^^^^^^^^ Correct Password ^^^^^^^^^^^^^ ");
+                                        return true;
+                                      }).catchError((error) {
+
+                                          setState(() => {
+                                              loadingStatus = false,
+                                              wrongPassword = true,
+                                              errorMessage =
+                                                  'The Credentials you supplied are wrong, please check again',
+                                            });
+                                        
+                                        print("error---Wrong password--------- "+errorMessage);
+
+                                      
+                                      });
+                                    } catch (e) {
                                       //result.catchError(onError)
-                                       setState(() => {
+                                       
+                                      setState(() => {
                                             loadingStatus = false,
-                                            error = 'Please specify a valid email'
-                                          } );
-                                    } 
+                                            errorMessage =
+                                                'Please specify a valid email'
+                                          });
+                                    }
+                                    
+                                        print("errorMessage---Wrong password #####2--------- "+errorMessage);
                                   }
                                 },
-                                ),
+                              ),
                             ),
+ 
+                            SizedBox(
+                              height: 15.0,
+                            ),
+                            wrongPassword
+                                ? Text(
+                                    errorMessage,
+                                    style: TextStyle(
+                                        color: Colors.red, fontSize: 15),
+                                  )
+                                : SizedBox(
+                                    height: 0.0,
+                                  ),
 
                             SizedBox(
                               height: 40.0,

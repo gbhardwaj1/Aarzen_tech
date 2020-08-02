@@ -1,10 +1,8 @@
     
-import 'package:edu_system/screen/home/drawer_home_part2.dart';
-import 'package:edu_system/screen/home/profile_home.dart';
+import 'package:edu_system/screen/home/drawer_home_part2.dart'; 
 import 'package:edu_system/screen/home/profile_home_new.dart';
 import 'package:edu_system/screen/images_dart/images_banner.dart'; 
-import 'package:edu_system/screen/signin.dart';
-import 'package:edu_system/screen/temp123.dart';
+import 'package:edu_system/screen/signin.dart'; 
 import 'package:edu_system/service/auth.dart'; 
 import 'package:flutter/material.dart'; 
 
