@@ -66,7 +66,7 @@ class AuthService {
       throw Future< FirebaseUser >.error(errorMessage);
     //return  null; //  Future< FirebaseUser >.error(errorMessage);
   }
-  print('Coming till here when wring password ');
+  print('Coming till here when wrong password ');
   return user;
   }
 

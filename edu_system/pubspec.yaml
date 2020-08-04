@@ -73,6 +73,8 @@ flutter:
         - assets/images/g_icon.PNG
         - assets/images/google_logo.PNG
         - assets/images/gb1.PNG
+        - assets/images/fp.PNG
+        - assets/images/fp1.PNG
 
   # To add assets to your application, add an assets section, like this:
   # assets:
