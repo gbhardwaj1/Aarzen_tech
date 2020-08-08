@@ -1,10 +1,8 @@
  
-import 'package:edu_system/models/user.dart';
-import 'package:edu_system/screen/home/home_page.dart'; 
+import 'package:edu_system/models/user.dart'; 
 import 'package:edu_system/service/database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart'; 
+import 'package:flutter/material.dart'; 
 import 'package:google_sign_in/google_sign_in.dart'; 
 
 class AuthService {
@@ -72,24 +70,8 @@ class AuthService {
 
   
   // Sign in with Email and Password
-
-   bool   signInWithEmailAndPasswordBoolean(String email, String password)   {
+ 
     
-      String errorMessage= null;
-      Future<AuthResult> user;
-      bool  _authenticationSuccessful = false;
-    try {
-       
-         final FirebaseAuth _firebaseAuth = FirebaseAuth.instance; 
-      user =   _auth.signInWithEmailAndPassword(email: email, password: password)  ;
-        _authenticationSuccessful = true;
-       
-    } catch (e) { 
-           print('Exception Thrown');
-           print(e.toString());
-  } 
-  return _authenticationSuccessful;
-  }
 
   // Register with email and Password
   Future registerWithEmailAndPassword(String email, String password) async {
@@ -162,29 +144,38 @@ class AuthService {
   // G Drive Intrigration
   Future<FirebaseUser> googleSignin(BuildContext context) async {
     FirebaseUser currentUser;
+       AuthResult result;
     try {
-      final GoogleSignIn _googleSignIn = GoogleSignIn();
-
-      final GoogleSignInAccount googleUser = await _googleSignIn.signIn();
+      print('inside googleSignin ');
+      final GoogleSignIn _googleSignIn = GoogleSignIn(); 
+      final GoogleSignInAccount googleUser = await _googleSignIn.signIn(); 
       final GoogleSignInAuthentication googleAuth =
           await googleUser.authentication;
+          
+    print('before  GoogleAuthProvider 3');
       final AuthCredential credential = GoogleAuthProvider.getCredential(
         accessToken: googleAuth.accessToken,
         idToken: googleAuth.idToken,
       );
-      final AuthResult result = await _auth.signInWithCredential(credential);
+        result = await _auth.signInWithCredential(credential);
+       
+      print('after  signInWithCredential ');
       assert(result.user.email != null);
       assert(result.user.displayName != null);
       assert(!result.user.isAnonymous);
       assert(await result.user.getIdToken() != null);
       currentUser = await _auth.currentUser();
       assert(result.user.uid == currentUser.uid);
-      print(currentUser);
+      print(result.user.uid +">>>>>>>>>>>>>>>>>>>>>>>>> 1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<  "+currentUser.uid);
+      print(result.user);
       print("User Name : ${currentUser.displayName}");
+       
     } catch (e) {
       print(e.toString());
       return currentUser;
-    }
+    } 
+
+      return result.user;
   }
 
 

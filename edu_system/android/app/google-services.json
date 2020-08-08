@@ -8,41 +8,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:577751993944:android:4da05c5e82d4bd3e55842d",
+        "mobilesdk_app_id": "1:577751993944:android:aca45a45aa7768b655842d",
         "android_client_info": {
           "package_name": "com.example.edu_system"
         }
       },
       "oauth_client": [
         {
-          "client_id": "577751993944-mf6s7s9skrc9ilon6p6pp5k208sprt72.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB1hIAgGu0ocNdCBaLbvGreXqh2vl5PQsQ"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "577751993944-mf6s7s9skrc9ilon6p6pp5k208sprt72.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:577751993944:android:551e9c669652085155842d",
-        "android_client_info": {
-          "package_name": "com.example.gb_flutter_firebase"
-        }
-      },
-      "oauth_client": [
+          "client_id": "577751993944-c0kt5d8sd3l7cj9oef2lah45e39ks8ab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.edu_system",
+            "certificate_hash": "ae424702c187d2416bba769cd2714ca51839c129"
+          }
+        },
         {
           "client_id": "577751993944-mf6s7s9skrc9ilon6p6pp5k208sprt72.apps.googleusercontent.com",
           "client_type": 3

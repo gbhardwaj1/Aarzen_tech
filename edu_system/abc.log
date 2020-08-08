@@ -1,0 +1,199 @@
+Launching lib\main.dart on SM A705GM in debug mode...
+Running Gradle task 'assembleDebug'...                             15.0s
+√ Built build\app\outputs\apk\debug\app-debug.apk.
+Syncing files to device SM A705GM...                             1,268ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h Repeat this help message.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+An Observatory debugger and profiler on SM A705GM is available at: http://127.0.0.1:61462/BaQpVkrqiFQ=/
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/InputMethodManager(28112): SSI - flag : 0 Pid : 28112 view : com.example.edu_system
+D/InputMethodManager(28112): prepareNavigationBarInfo() DecorView@5a07c9a[MainActivity]
+D/InputMethodManager(28112): getNavigationBarColor() -855310
+V/InputMethodManager(28112): Starting input: tba=com.example.edu_system ic=io.flutter.plugin.editing.InputConnectionAdaptor@48571c6 mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+D/InputMethodManager(28112): startInputInner - Id : 0
+I/InputMethodManager(28112): startInputInner - mService.startInputOrWindowGainedFocus
+D/InputTransport(28112): Input channel destroyed: 'ClientS', fd=83
+D/InputMethodManager(28112): prepareNavigationBarInfo() DecorView@5a07c9a[MainActivity]
+D/InputMethodManager(28112): getNavigationBarColor() -855310
+D/InputMethodManager(28112): prepareNavigationBarInfo() DecorView@5a07c9a[MainActivity]
+D/InputMethodManager(28112): getNavigationBarColor() -855310
+V/InputMethodManager(28112): Starting input: tba=com.example.edu_system ic=io.flutter.plugin.editing.InputConnectionAdaptor@8fc6323 mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+D/InputMethodManager(28112): startInputInner - Id : 0
+I/InputMethodManager(28112): startInputInner - mService.startInputOrWindowGainedFocus
+D/InputTransport(28112): Input channel destroyed: 'ClientS', fd=111
+W/IInputConnectionWrapper(28112): getTextBeforeCursor on inactive InputConnection
+W/IInputConnectionWrapper(28112): getSelectedText on inactive InputConnection
+W/IInputConnectionWrapper(28112): getTextAfterCursor on inactive InputConnection
+W/IInputConnectionWrapper(28112): beginBatchEdit on inactive InputConnection
+W/IInputConnectionWrapper(28112): endBatchEdit on inactive InputConnection
+D/ViewRootImpl@7e8a454[MainActivity](28112): MSG_RESIZED: frame=(0,0,1080,2400) ci=(0,76,0,867) vi=(0,76,0,867) or=1
+D/ViewRootImpl@7e8a454[MainActivity](28112): Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)0 dur=19 res=0x1 s={true 531109543936} ch=false
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/InputMethodManager(28112): SSI - flag : 0 Pid : 28112 view : com.example.edu_system
+D/InputMethodManager(28112): prepareNavigationBarInfo() DecorView@5a07c9a[MainActivity]
+D/InputMethodManager(28112): getNavigationBarColor() -855310
+D/InputMethodManager(28112): prepareNavigationBarInfo() DecorView@5a07c9a[MainActivity]
+D/InputMethodManager(28112): getNavigationBarColor() -855310
+V/InputMethodManager(28112): Starting input: tba=com.example.edu_system ic=io.flutter.plugin.editing.InputConnectionAdaptor@239139b mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+D/InputMethodManager(28112): startInputInner - Id : 0
+I/InputMethodManager(28112): startInputInner - mService.startInputOrWindowGainedFocus
+D/InputTransport(28112): Input channel destroyed: 'ClientS', fd=110
+D/ViewRootImpl@7e8a454[MainActivity](28112): The input has been finished in ImeInputStage.
+D/ViewRootImpl@7e8a454[MainActivity](28112): The input has been finished in ImeInputStage.
+D/ViewRootImpl@7e8a454[MainActivity](28112): MSG_RESIZED: frame=(0,0,1080,2400) ci=(0,76,0,126) vi=(0,76,0,126) or=1
+D/ViewRootImpl@7e8a454[MainActivity](28112): Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)0 dur=7 res=0x1 s={true 531109543936} ch=false
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+I/flutter (28112): errorMessage---Wrong password #####2--------- 
+I/BiChannelGoogleApi(28112): [FirebaseAuth: ] getGoogleApiForMethod() returned Gms: com.google.firebase.auth.api.internal.zzaq@1265f11
+D/InputMethodManager(28112): HSIFW - flag : 0 Pid : 28112
+D/FirebaseAuth(28112): Notifying id token listeners about user ( 8t1QLOtGYBR4KHYjtt01qYsjBqR2 ).
+D/FirebaseAuth(28112): Notifying auth state listeners about user ( 8t1QLOtGYBR4KHYjtt01qYsjBqR2 ).
+I/flutter (28112): Coming till here when wrong password 
+I/flutter (28112): ^^^^^^^^^^^^^^ Correct Password ^^^^^^^^^^^^^ 
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+W/DynamiteModule(28112): Local module descriptor class for providerinstaller not found.
+D/ConnectivityManager(28112): requestNetwork; CallingUid : 10340, CallingPid : 28112
+I/DynamiteModule(28112): Considering local module providerinstaller:0 and remote module providerinstaller:0
+W/ProviderInstaller(28112): Failed to load providerinstaller module: No acceptable module found. Local version is 0 and remote version is 0.
+I/mple.edu_syste(28112): The ClassLoaderContext is a special shared library.
+I/chatty  (28112): uid=10340(com.example.edu_system) AsyncTask #1 identical 1 line
+I/mple.edu_syste(28112): The ClassLoaderContext is a special shared library.
+W/mple.edu_syste(28112): Accessing hidden method Lsun/misc/Unsafe;->getLong(Ljava/lang/Object;J)J (greylist,core-platform-api, linking, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Lsun/misc/Unsafe;->arrayBaseOffset(Ljava/lang/Class;)I (greylist,core-platform-api, linking, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Lsun/misc/Unsafe;->copyMemory(JJJ)V (greylist, linking, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Lsun/misc/Unsafe;->objectFieldOffset(Ljava/lang/reflect/Field;)J (greylist,core-platform-api, linking, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Lsun/misc/Unsafe;->getByte(J)B (greylist,core-platform-api, linking, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Lsun/misc/Unsafe;->getByte(Ljava/lang/Object;J)B (greylist,core-platform-api, linking, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Lsun/misc/Unsafe;->getLong(J)J (greylist,core-platform-api, linking, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Lsun/misc/Unsafe;->putByte(JB)V (greylist,core-platform-api, linking, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Lsun/misc/Unsafe;->putByte(Ljava/lang/Object;JB)V (greylist,core-platform-api, linking, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Lsun/misc/Unsafe;->getLong(Ljava/lang/Object;J)J (greylist,core-platform-api, reflection, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Lsun/misc/Unsafe;->getLong(Ljava/lang/Object;J)J (greylist,core-platform-api, reflection, allowed)
+W/mple.edu_syste(28112): Accessing hidden field Ljava/nio/Buffer;->address:J (greylist, reflection, allowed)
+V/NativeCrypto(28112): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 286 native methods...
+W/mple.edu_syste(28112): Accessing hidden method Ljava/security/spec/ECParameterSpec;->getCurveName()Ljava/lang/String; (greylist, reflection, allowed)
+D/NetworkSecurityConfig(28112): No Network Security Config specified, using platform default
+I/ProviderInstaller(28112): Installed default security provider GmsCore_OpenSSL
+D/ConnectivityManager(28112): requestNetwork; CallingUid : 10340, CallingPid : 28112
+W/mple.edu_syste(28112): Accessing hidden field Ljava/net/Socket;->impl:Ljava/net/SocketImpl; (greylist, reflection, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (greylist,core-platform-api, linking, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (greylist,core-platform-api, linking, allowed)
+W/mple.edu_syste(28112): Accessing hidden field Ljava/io/FileDescriptor;->descriptor:I (greylist, JNI, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Ljava/security/spec/ECParameterSpec;->setCurveName(Ljava/lang/String;)V (greylist, reflection, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Ldalvik/system/BlockGuard;->getThreadPolicy()Ldalvik/system/BlockGuard$Policy; (greylist,core-platform-api, linking, allowed)
+W/mple.edu_syste(28112): Accessing hidden method Ldalvik/system/BlockGuard$Policy;->onNetwork()V (greylist, linking, allowed)
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+I/flutter (28112): ####################################
+I/flutter (28112): https://firebasestorage.googleapis.com/v0/b/first-gb-db.appspot.com/o/gs%3A%2Ffirst-gb-db.appspot.com%2F8t1QLOtGYBR4KHYjtt01qYsjBqR2?alt=media&token=b8ed3ac4-d215-4d84-b09b-456c2a43611b
+I/flutter (28112): 116 Sindhi colony
+I/flutter (28112): ####################################
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+I/flutter (28112): ####################################
+I/flutter (28112): https://firebasestorage.googleapis.com/v0/b/first-gb-db.appspot.com/o/gs%3A%2Ffirst-gb-db.appspot.com%2F8t1QLOtGYBR4KHYjtt01qYsjBqR2?alt=media&token=b8ed3ac4-d215-4d84-b09b-456c2a43611b
+I/flutter (28112): 116 Sindhi colony
+I/flutter (28112): ####################################
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+I/flutter (28112): ####################################
+I/flutter (28112): https://firebasestorage.googleapis.com/v0/b/first-gb-db.appspot.com/o/gs%3A%2Ffirst-gb-db.appspot.com%2F8t1QLOtGYBR4KHYjtt01qYsjBqR2?alt=media&token=b8ed3ac4-d215-4d84-b09b-456c2a43611b
+I/flutter (28112): 116 Sindhi colony
+I/flutter (28112): ####################################
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+I/flutter (28112): ####################################
+I/flutter (28112): https://firebasestorage.googleapis.com/v0/b/first-gb-db.appspot.com/o/gs%3A%2Ffirst-gb-db.appspot.com%2F8t1QLOtGYBR4KHYjtt01qYsjBqR2?alt=media&token=b8ed3ac4-d215-4d84-b09b-456c2a43611b
+I/flutter (28112): 116 Sindhi colony
+I/flutter (28112): ####################################
+I/flutter (28112): ####################################
+I/flutter (28112): https://firebasestorage.googleapis.com/v0/b/first-gb-db.appspot.com/o/gs%3A%2Ffirst-gb-db.appspot.com%2F8t1QLOtGYBR4KHYjtt01qYsjBqR2?alt=media&token=b8ed3ac4-d215-4d84-b09b-456c2a43611b
+I/flutter (28112): 116 Sindhi colony
+I/flutter (28112): ####################################
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+I/flutter (28112): ####################################
+I/flutter (28112): https://firebasestorage.googleapis.com/v0/b/first-gb-db.appspot.com/o/gs%3A%2Ffirst-gb-db.appspot.com%2F8t1QLOtGYBR4KHYjtt01qYsjBqR2?alt=media&token=b8ed3ac4-d215-4d84-b09b-456c2a43611b
+I/flutter (28112): 116 Sindhi colony
+I/flutter (28112): ####################################
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+I/flutter (28112): ####################################
+I/flutter (28112): https://firebasestorage.googleapis.com/v0/b/first-gb-db.appspot.com/o/gs%3A%2Ffirst-gb-db.appspot.com%2F8t1QLOtGYBR4KHYjtt01qYsjBqR2?alt=media&token=b8ed3ac4-d215-4d84-b09b-456c2a43611b
+I/flutter (28112): 116 Sindhi colony
+I/flutter (28112): ####################################
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+I/flutter (28112): ####################################
+I/flutter (28112): https://firebasestorage.googleapis.com/v0/b/first-gb-db.appspot.com/o/gs%3A%2Ffirst-gb-db.appspot.com%2F8t1QLOtGYBR4KHYjtt01qYsjBqR2?alt=media&token=b8ed3ac4-d215-4d84-b09b-456c2a43611b
+I/flutter (28112): 116 Sindhi colony
+I/flutter (28112): ####################################
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): MSG_WINDOW_FOCUS_CHANGED 0 1
+D/InputMethodManager(28112): prepareNavigationBarInfo() DecorView@5a07c9a[MainActivity]
+D/InputMethodManager(28112): getNavigationBarColor() -855310
+D/ViewRootImpl@7e8a454[MainActivity](28112): MSG_WINDOW_FOCUS_CHANGED 1 1
+D/InputMethodManager(28112): prepareNavigationBarInfo() DecorView@5a07c9a[MainActivity]
+D/InputMethodManager(28112): getNavigationBarColor() -855310
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 0
+I/flutter (28112): ####################################
+I/flutter (28112): https://firebasestorage.googleapis.com/v0/b/first-gb-db.appspot.com/o/gs%3A%2Ffirst-gb-db.appspot.com%2F8t1QLOtGYBR4KHYjtt01qYsjBqR2?alt=media&token=b8ed3ac4-d215-4d84-b09b-456c2a43611b
+I/flutter (28112): 116 Sindhi colony
+I/flutter (28112): ####################################
+D/ViewRootImpl@7e8a454[MainActivity](28112): ViewPostIme pointer 1
+D/ViewRootImpl@7e8a454[MainActivity](28112): MSG_WINDOW_FOCUS_CHANGED 0 1
+D/InputMethodManager(28112): prepareNavigationBarInfo() DecorView@5a07c9a[MainActivity]
+D/InputMethodManager(28112): getNavigationBarColor() -855310
+D/InputTransport(28112): Input channel destroyed: 'ClientS', fd=99
+D/SurfaceView(28112): onWindowVisibilityChanged(8) false io.flutter.embedding.android.FlutterSurfaceView{855b1c0 V.E...... ......I. 0,0-1080,2274} of ViewRootImpl@7e8a454[MainActivity]
+D/SurfaceView(28112): surfaceDestroyed callback.size 1 #2 io.flutter.embedding.android.FlutterSurfaceView{855b1c0 V.E...... ......I. 0,0-1080,2274}
+D/SurfaceView(28112): remove() io.flutter.embedding.android.FlutterSurfaceView{855b1c0 V.E...... ......I. 0,0-1080,2274} Surface(name=SurfaceView - com.example.edu_system/com.example.edu_system.MainActivity@855b1c0@0)/@0xc89a3de
+D/ViewRootImpl@7e8a454[MainActivity](28112): Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)8 dur=33 res=0x5 s={false 0} ch=true
+D/ViewRootImpl@7e8a454[MainActivity](28112): stopped(true) old=false
+D/SurfaceView(28112): windowStopped(true) false io.flutter.embedding.android.FlutterSurfaceView{855b1c0 V.E...... ......I. 0,0-1080,2274} of ViewRootImpl@7e8a454[MainActivity]
+D/SurfaceView(28112): onWindowVisibilityChanged(4) false io.flutter.embedding.android.FlutterSurfaceView{855b1c0 V.E...... ......I. 0,0-1080,2274} of ViewRootImpl@7e8a454[MainActivity]
+D/ViewRootImpl@7e8a454[MainActivity](28112): Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)4 dur=5 res=0x1 s={false 0} ch=false
+D/ViewRootImpl@7e8a454[MainActivity](28112): stopped(false) old=true
+D/SurfaceView(28112): windowStopped(false) false io.flutter.embedding.android.FlutterSurfaceView{855b1c0 V.E...... ......I. 0,0-1080,2274} of ViewRootImpl@7e8a454[MainActivity]
+D/SurfaceView(28112): onWindowVisibilityChanged(0) true io.flutter.embedding.android.FlutterSurfaceView{855b1c0 V.E...... ......I. 0,0-1080,2274} of ViewRootImpl@7e8a454[MainActivity]
+D/ViewRootImpl@7e8a454[MainActivity](28112): Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)0 dur=7 res=0x7 s={true 533573472256} ch=true
+D/OpenGLRenderer(28112): createReliableSurface : 0x7c3b729100, 0x7c3b751000
+D/SurfaceView(28112): surfaceCreated 1 #8 io.flutter.embedding.android.FlutterSurfaceView{855b1c0 V.E...... ......I. 0,0-1080,2274}
+D/SurfaceView(28112): surfaceChanged (1080,2274) 1 #8 io.flutter.embedding.android.FlutterSurfaceView{855b1c0 V.E...... ......I. 0,0-1080,2274}
+D/SurfaceView(28112): onWindowVisibilityChanged(8) false io.flutter.embedding.android.FlutterSurfaceView{855b1c0 V.E...... ........ 0,0-1080,2274} of ViewRootImpl@7e8a454[MainActivity]
+D/SurfaceView(28112): surfaceDestroyed callback.size 1 #2 io.flutter.embedding.android.FlutterSurfaceView{855b1c0 V.E...... ........ 0,0-1080,2274}
+D/SurfaceView(28112): remove() io.flutter.embedding.android.FlutterSurfaceView{855b1c0 V.E...... ........ 0,0-1080,2274} Surface(name=SurfaceView - com.example.edu_system/com.example.edu_system.MainActivity@855b1c0@1)/@0x4749051
+D/ViewRootImpl@7e8a454[MainActivity](28112): Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)8 dur=11 res=0x5 s={false 0} ch=true
+D/ViewRootImpl@7e8a454[MainActivity](28112): stopped(false) old=false
+D/ViewRootImpl@7e8a454[MainActivity](28112): stopped(true) old=false
+D/SurfaceView(28112): windowStopped(true) false io.flutter.embedding.android.FlutterSurfaceView{855b1c0 V.E...... ........ 0,0-1080,2274} of ViewRootImpl@7e8a454[MainActivity]
+D/ViewRootImpl@7e8a454[MainActivity](28112): Relayout returned: old=(0,0,1080,2400) new=(0,0,1080,2400) req=(1080,2400)8 dur=11 res=0x5 s={false 0} ch=false
+W/mple.edu_syste(28112): Accessing hidden method Ldalvik/system/CloseGuard;->close()V (greylist,core-platform-api, linking, allowed)
+Lost connection to device.

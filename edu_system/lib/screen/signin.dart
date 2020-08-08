@@ -230,18 +230,58 @@ class _SignInState extends State<SignIn> {
                                           color: Colors.transparent)),
                                   color: Colors.cyan[400],
                                   onPressed: () {
-                                    _auth
+                                    print("googleSignin Start");
+                                  /*   _auth
                                         .googleSignin(context)
                                         .whenComplete(() {
                                       Navigator.of(context).push(
                                         MaterialPageRoute(
                                           builder: (context) {
+                                            print("inside Sign in new >>>> ");
                                             // return Home();
-                                            return Home_P2();
+                                            //return Home_P2();
+                                            return true;
+                                          //
+
+                                          //
+
                                           },
                                         ),
                                       );
-                                    });
+                                    }); */
+                                 
+                                 Future result;
+                                    try {
+                                      result = _auth
+                                          .googleSignin(context).then((value) {
+                                        print(
+                                            "^^^^^^^^^^^^^^ Correct Password ^^^^^^^^^^^^^ ");
+                                        return true;
+                                      }).catchError((error) {
+
+                                         /* setState(() => {
+                                              loadingStatus = false,
+                                              wrongPassword = true,
+                                              errorMessage =
+                                                  'The Credentials you supplied are wrong, please check again',
+                                            }); */
+                                        
+                                        print("error---Wrong password--------- "+errorMessage);
+
+                                      
+                                      });
+                                    } catch (e) {
+                                      //result.catchError(onError)
+                                       
+                                      setState(() => {
+                                            loadingStatus = false,
+                                            errorMessage =
+                                                'Please specify a valid email'
+                                          });
+                                    }
+
+
+                                 
                                   },
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.center,
